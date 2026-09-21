@@ -18,3 +18,6 @@ class UserOut(BaseModel):
     mname: str
     mstatus: int  
     model_config = ConfigDict(from_attributes=True)
+    
+class hello(BaseModel):
+    pass
